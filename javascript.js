@@ -48,19 +48,6 @@ if(confirmUpper != true && confirmLower != true && confirmNumber != true && conf
 alert("Must choose at least 1 or more special characters options for Password Generation. Please click button try again!");
 
 }
-if( confirmUpper===true){
-  allArrays=allArrays.concat(randomUpper);
-}
-if(confirmLower===true){
-  allArrays=allArrays.concat(randomLower);
-}
-if(confirmSymbol===true){
-  allArrays=allArrays.concat(randomSymbol);
-}
-if(confirmNumber===true){
-  allArrays=allArrays.concat(randomNumber);
-}
-return charCount;
 };
 
 function generatePassword(charCount){
