@@ -63,20 +63,20 @@ if(confirmNumber===true){
 return charCount;
 };
 
-// function generatePassword(charCount){
-// //return something, use chooseChar(call it)
-// // password=chooseChar();
-// var newPassword =[]
-// for(var i=0; i< charCount; i++){
-//  let randomPassword = allArrays[Math.floor(Math.random()* allArrays.length)];
-//  console.log(randomPassword)
-// newPassword.push(randomPassword);
-// console.log('newPassword:', newPassword)
-// }
-// return newPassword.join('');
+function generatePassword(charCount){
+//return something, use chooseChar(call it)
+// password=chooseChar();
+var newPassword =[]
+for(var i=0; i< charCount; i++){
+ let randomPassword = allArrays[Math.floor(Math.random()* allArrays.length)];
+ console.log(randomPassword)
+newPassword.push(randomPassword);
+console.log('newPassword:', newPassword)
+}
+return newPassword.join('');
 
-// }
-// generateBtn.addEventListener("click", writePassword);
+}
+generateBtn.addEventListener("click", writePassword);
 // generateNewPassword(newPassword);
 
 
