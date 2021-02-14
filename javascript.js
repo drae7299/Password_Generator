@@ -1,4 +1,5 @@
 // Assignment Code
+alert("Welcome! To begin, click OK and then the Generate Buttom to cue the prompts!")
 var generateBtn = document.querySelector("#generate");
 var randomUpper = ['A',"B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 var randomLower = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
@@ -44,7 +45,7 @@ var confirmNumber= confirm("Add Numbers?");
 var confirmSymbol= confirm("Add Symbols?");
 
 if(confirmUpper != true && confirmLower != true && confirmNumber != true && confirmSymbol != true ){
-alert("Must select correct amount of character");
+alert("Must choose at least 1 or more special characters options for Password Generation. Please click button try again!");
 
 }
 if( confirmUpper===true){
