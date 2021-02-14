@@ -1,7 +1,7 @@
 # Password_Generator
 
 ## Description
-Use this application to have a very randomized password generated between 8-128 Characters in length
+Use this application to have a very randomized password generated between 8-128 Characters in length.
 
 ### Features
 The application will give you the options to select different variables of choice such as Uppercase, Lowercase, Numbers and more. Once the user has gone through all prompts from the window, the application will generate out a password to copy and use. This will ensure the lesser likely hood of an account breach and provides more security to those who use it. The password can also be generated between 8 -128 characters to offer more levels of security.
