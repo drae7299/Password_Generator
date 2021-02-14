@@ -29,23 +29,23 @@ function chooseChar(array){
 
 
 function userOption(){
-var charCount=prompt("Pick Password Length between 8 and 128 Characters");
+var charCount=prompt("Password Length between 8 and 128 Characters, choose password length");
 console.log(typeof charCount);
 if (isNaN (charCount) === true){
-  alert("Must enter a number value");
+  alert("Must enter a NUMERIC value");
   return;
 }
   if(charCount < 8 || charCount > 128){
-  alert("Please choice a character length between 8 and 128 :)");
+  alert("Choose a character length between 8 and 128 to proceed");
   return;
 }
-var confirmUpper= confirm("Add a Upper Cased letter?");
-var confirmLower= confirm("Add a Lower Case Letter?");
-var confirmNumber= confirm("Add Numbers?");
-var confirmSymbol= confirm("Add Symbols?");
+var confirmUpper= confirm("Would you like to add Upper Case letters? Click OK for yes or CANCEL for no");
+var confirmLower= confirm("Would you like to add Lower Case Letters? Click OK for yes or CANCEL for no");
+var confirmNumber= confirm("Would you like to add Numbers? Click OK for yes or CANCEL for no");
+var confirmSymbol= confirm("Would you like to add Symbols? Click OK for yes or CANCEL for no");
 
 if(confirmUpper != true && confirmLower != true && confirmNumber != true && confirmSymbol != true ){
-alert("Must choose at least 1 or more special characters options for Password Generation. Please click button try again!");
+alert("Must choose at least 1 or more special characters options for Password Generation. Please click OK to try again!");
 
 }
 if( confirmUpper===true){
