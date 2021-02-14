@@ -12,8 +12,8 @@ let generateRandom;
 
 
 function writePassword() {
-  var charCount= userOption()
-  var password = generatePassword(charCount);
+  var charCount= ()
+  var password = (charCount);
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 console.log(charCount);
